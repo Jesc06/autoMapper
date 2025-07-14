@@ -45,6 +45,11 @@ namespace SAS_Record_Management_System.Application.Mappings
 }
 
 ```
+<br>
+
+```csharp
+CreateMap<TSource, TDestination>();
+```
 
 <br>
 
