@@ -38,12 +38,23 @@ namespace SAS_Record_Management_System.Application.Mappings
     {
         public MappingProfile()
         {
-            CreateMap<["Add your model here"], ["Add your second model here"]>();
+            CreateMap<StudentAccountRegistrationDTO, StudentAccountRegistration>();
         }
     }
    
 }
 
+```
+
+<br>
+
+```csharp
+   public async Task AddAsync(StudentAccountRegistrationDTO modelDomain)
+   {
+       var domain = _mapper.Map<StudentAccountRegistration>(modelDomain);
+       await _context.StudentAccountRegistrations.AddAsync(domain);
+       await _context.SaveChangesAsync();
+   }
 ```
 
 
