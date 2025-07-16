@@ -1,7 +1,7 @@
 <img src="AutoMapper.png" alt="Step 1" width="80"/>
 
 # autoMapper Configuration in .Net 9 Asp.NetCore
-### AutoMapper Documentation in ASP.NET Core Implementation in N-Layer Architecture
+### AutoMapper Documentation in ASP.NET Core Implementation in Clean Architecture
 
 <br>
 <br>
